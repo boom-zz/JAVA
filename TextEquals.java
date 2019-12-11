@@ -6,6 +6,11 @@ public class TextEquals
 		Egg e2 = new Egg(1, 2, 3);
 		System.out.println(e1 == e2);
 		System.out.println(e1.equals(e2));
+		
+		String s1 = new String("Hi");
+		String s2 = new String("Hi");
+		System.out.println(s1 == s2);
+		System.out.println(s1.equals(s2));
 	}
 }
 
